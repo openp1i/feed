@@ -752,6 +752,23 @@ Filename: enigma2-plugin-extensions-worldcam_4.4_all.ipk
 Size: 895390
 MD5Sum: b8b00e32dc6f6b3ec1845df48e89f323
 
+Package: enigma2-plugin-extensions-xklass
+Version: 0.0-143-g49cea09-r1
+Depends: python3-multiprocessing, python3-pillow, python3-requests, python3-six
+Section: base
+Architecture: all
+Maintainer: kiddac
+MD5Sum: 206dfa8b87da17f43bc4195156dfa061
+SHA256sum: 8e9806bc79de395c46bc29db1252455f0182ddd8a67f7de0caf6ca53298d7d09
+Size: 5800626
+Filename: enigma2-plugin-extensions-xklass_0.0-143-g49cea09-r1_all.ipk
+Source: enigma2-plugin-extensions-xklass.bb
+Description: IPTV Xtream Codes/XUI One playlists player by KiddaC
+OE: enigma2-plugin-extensions-xklass
+HomePage: https://www.linuxsat-support.com
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-skins-aglare-fhd-pli
 Version: 3.0.1
 Description: Skin Aglare FHD
