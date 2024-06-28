@@ -780,6 +780,7 @@ Source: enigma2-plugin-skins-aglare-fhd-pli.bb
 Homepage: 
 OE: enigma2-plugin-skins-aglare-fhd-pli
 License: GPL-2.0-only
+Recommends: enigma2-plugin-extensions-weatherplugin (>= 2.2)
 Filename: enigma2-plugin-skins-aglare-fhd-pli_3.0.1_all.ipk
 Size: 7595626
 MD5Sum: 8ee17f315a278008d04f329064b9eace
@@ -883,7 +884,6 @@ Priority: optional
 Maintainer: Dimitrij <Dima-73@inbox.lv>
 Architecture: all
 Homepage: openPLi
-Depends:
 Filename: enigma2-plugin-systemplugins-slowzap_1.8_all.ipk
 Size: 21574
 MD5Sum: 3c99f11e49bb3b5ae56ac75ca07e6007
