@@ -770,7 +770,7 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-aglare-fhd-pli
-Version: 3.0.1
+Version: 3.0.2
 Description: Skin Aglare FHD
 Section: base
 Priority: required
@@ -780,10 +780,10 @@ Source: enigma2-plugin-skins-aglare-fhd-pli.bb
 Homepage: 
 OE: enigma2-plugin-skins-aglare-fhd-pli
 License: GPL-2.0-only
-Recommends: enigma2-plugin-extensions-weatherplugin (>= 2.2)
-Filename: enigma2-plugin-skins-aglare-fhd-pli_3.0.1_all.ipk
-Size: 7595626
-MD5Sum: 8ee17f315a278008d04f329064b9eace
+Recommends: enigma2-plugin-extensions-weatherplugin
+Filename: enigma2-plugin-skins-aglare-fhd-pli_3.0.2_all.ipk
+Size: 7213334
+MD5Sum: 719b1ad10087da8c0852af6c51ce7590
 
 Package: enigma2-plugin-skins-freesat-fhd
 Version: 1.0
