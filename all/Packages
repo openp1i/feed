@@ -2728,14 +2728,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-cino-pli-fhd-dbg
-Version: 1.0+git13+59c86e90+59c86e9d54-r0
+Version: 1.0+git14+d9e1a720+d9e1a72cd6-r0
 Section: devel
 Architecture: all
 Maintainer: cino
-MD5Sum: 7bae05f04dc5802486f6658b87fc0d39
-SHA256sum: 235dd33cfb5ff64034e65718e77196c289d64ab109e5c862cda50bdc5736c7ae
+MD5Sum: bbabdd702893612f4aef0027173f6cae
+SHA256sum: 42711f14e3d6d7c700bef2504bbce19aaac9573604a2fdbd75088250134e1022
 Size: 580
-Filename: enigma2-plugin-skins-cino-pli-fhd-dbg_1.0+git13+59c86e90+59c86e9d54-r0_all.ipk
+Filename: enigma2-plugin-skins-cino-pli-fhd-dbg_1.0+git14+d9e1a720+d9e1a72cd6-r0_all.ipk
 Source: enigma2-plugin-skins-cino-pli-fhd.bb
 Description: enigma2-plugin-skins-cino-pli-fhd version 1.0+git-r0 - Debugging files
 OE: enigma2-plugin-skins-cino-pli-fhd
@@ -2743,15 +2743,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-cino-pli-fhd-dev
-Version: 1.0+git13+59c86e90+59c86e9d54-r0
-Recommends: enigma2-plugin-skins-cino-pli-fhd (= 1.0+git13+59c86e90+59c86e9d54-r0)
+Version: 1.0+git14+d9e1a720+d9e1a72cd6-r0
+Recommends: enigma2-plugin-skins-cino-pli-fhd (= 1.0+git14+d9e1a720+d9e1a72cd6-r0)
 Section: devel
 Architecture: all
 Maintainer: cino
-MD5Sum: 29eb51f7c73d65ae1c6dc5e0fb8b91ca
-SHA256sum: 8ef483f30cb76afede2c927a7acd50aa256a6aba8fedf64a87cca6c7320aeeea
+MD5Sum: dde422fdf6069583a9baf5d5922ea49e
+SHA256sum: f554ada3562b741c9b2866282bf5d4ec50a3bd22648a845d785db952aa63a8ea
 Size: 620
-Filename: enigma2-plugin-skins-cino-pli-fhd-dev_1.0+git13+59c86e90+59c86e9d54-r0_all.ipk
+Filename: enigma2-plugin-skins-cino-pli-fhd-dev_1.0+git14+d9e1a720+d9e1a72cd6-r0_all.ipk
 Source: enigma2-plugin-skins-cino-pli-fhd.bb
 Description: enigma2-plugin-skins-cino-pli-fhd version 1.0+git-r0 - Development files
 OE: enigma2-plugin-skins-cino-pli-fhd
@@ -2759,15 +2759,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-skins-cino-pli-fhd
-Version: 1.0+git13+59c86e90+59c86e9d54-r0
+Version: 1.0+git14+d9e1a720+d9e1a72cd6-r0
 Recommends: enigma2-plugin-extensions-weatherplugin
 Section: base
 Architecture: all
 Maintainer: cino
-MD5Sum: ea2aebae98c575ec2f7d198a9eb6a533
-SHA256sum: 9bd4213d3a7af293962577309b0cd63a32be30677f417d25791e9efba2b5935d
-Size: 1132748
-Filename: enigma2-plugin-skins-cino-pli-fhd_1.0+git13+59c86e90+59c86e9d54-r0_all.ipk
+MD5Sum: 63b8257046896017d6b1ad058c5b5e0e
+SHA256sum: d90d5902c300b8a2cf83cfd0d6bbbb8b4227ebf4ee85b679e99f20a08f0dca0a
+Size: 1132744
+Filename: enigma2-plugin-skins-cino-pli-fhd_1.0+git14+d9e1a720+d9e1a72cd6-r0_all.ipk
 Source: enigma2-plugin-skins-cino-pli-fhd.bb
 Description: enigma2-plugin-skins-cino-pli-fhd version 1.0+git-r0
 OE: enigma2-plugin-skins-cino-pli-fhd
