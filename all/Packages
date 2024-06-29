@@ -2732,8 +2732,8 @@ Version: 1.0+git14+d9e1a720+d9e1a72cd6-r0
 Section: devel
 Architecture: all
 Maintainer: cino
-MD5Sum: bbabdd702893612f4aef0027173f6cae
-SHA256sum: 42711f14e3d6d7c700bef2504bbce19aaac9573604a2fdbd75088250134e1022
+MD5Sum: 6d8f8187b32ec5a68715af92cbe836f1
+SHA256sum: 885199fe027e81952d6ac5e937b0b4cc6af93fed30620b3b7849847d7179d411
 Size: 580
 Filename: enigma2-plugin-skins-cino-pli-fhd-dbg_1.0+git14+d9e1a720+d9e1a72cd6-r0_all.ipk
 Source: enigma2-plugin-skins-cino-pli-fhd.bb
@@ -2748,9 +2748,9 @@ Recommends: enigma2-plugin-skins-cino-pli-fhd (= 1.0+git14+d9e1a720+d9e1a72cd6-r
 Section: devel
 Architecture: all
 Maintainer: cino
-MD5Sum: dde422fdf6069583a9baf5d5922ea49e
-SHA256sum: f554ada3562b741c9b2866282bf5d4ec50a3bd22648a845d785db952aa63a8ea
-Size: 620
+MD5Sum: 3846271c37f6775edc58f7af863c094d
+SHA256sum: 9b72a8ee7dbe0ec68b6bcf14e1880a9e3983e1ea4b9d09b132c93850e3eb3d57
+Size: 618
 Filename: enigma2-plugin-skins-cino-pli-fhd-dev_1.0+git14+d9e1a720+d9e1a72cd6-r0_all.ipk
 Source: enigma2-plugin-skins-cino-pli-fhd.bb
 Description: enigma2-plugin-skins-cino-pli-fhd version 1.0+git-r0 - Development files
@@ -2764,9 +2764,9 @@ Recommends: enigma2-plugin-extensions-weatherplugin
 Section: base
 Architecture: all
 Maintainer: cino
-MD5Sum: 63b8257046896017d6b1ad058c5b5e0e
-SHA256sum: d90d5902c300b8a2cf83cfd0d6bbbb8b4227ebf4ee85b679e99f20a08f0dca0a
-Size: 1132744
+MD5Sum: 5bafc1c43129ded5a11f791ee9886596
+SHA256sum: bca1662e7ec05dc62e3650450b4c858b6891bd78a841d3e6cabb88ba656871e7
+Size: 1132708
 Filename: enigma2-plugin-skins-cino-pli-fhd_1.0+git14+d9e1a720+d9e1a72cd6-r0_all.ipk
 Source: enigma2-plugin-skins-cino-pli-fhd.bb
 Description: enigma2-plugin-skins-cino-pli-fhd version 1.0+git-r0
