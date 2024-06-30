@@ -496,22 +496,6 @@ Filename: enigma2-plugin-extensions-ngsetting-fhd_2.7_all.ipk
 Size: 502620
 MD5Sum: 62ffe8c5cc1dd37cfff7ea67644cb61f
 
-Package: enigma2-plugin-extensions-nordvpnconnector
-Version: 0.6-r2
-Description: Manage NordVPN connections
-Section: misc
-Priority: optional
-Maintainer: Lizard
-License: GPL-2.0-only
-Architecture: all
-Depends: iptables, kernel-module-xt-multiport, kernel-module-xt-state, kernel-module-xt-tcpudp, openvpn, python3-requests, bash, curl, openresolv
-Homepage: 
-OE: enigma2-plugin-extensions-nordvpnconnector
-Filename: enigma2-plugin-extensions-nordvpnconnector_0.6-r2_all.ipk
-Source: enigma2-plugin-extensions-nordvpnconnector.bb
-Size: 82074
-MD5Sum: 0d485c0fca3a1fcaa235c975cfb823dd
-
 Package: enigma2-plugin-extensions-plutotv
 Version: 20240511
 Description: Pluto TV Channels plugin
