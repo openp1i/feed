@@ -186,9 +186,8 @@ Size: 271440
 MD5Sum: 7aacd19e4d93727add633cbeaa4391f8
 
 Package: enigma2-plugin-extensions-emission
-Version: 7.5
-Description: extensions-emission
- basic frontend to the transmission bittorrent client
+Version: 7.8
+Description: basic frontend to the transmission bittorrent client
 Section: base
 Priority: optional
 Maintainer: OE-Alliance team
@@ -196,48 +195,48 @@ License: Proprietary
 Architecture: dm920
 OE: enigma2-plugins
 Homepage: https:\\www.opena.tv
-Depends: python3-transmissionrpc
+Depends: python3-transmissionrpc, transmission, transmission-client
 Source: enigma2-plugins.bb
-Filename: enigma2-plugin-extensions-emission_7.4+gitr7704+2442ff60+2442ff6805-r8_dm920.ipk
-Size: 24862
-MD5Sum: 8e236182446dd7c81cc890da91967ba9
+Filename: enigma2-plugin-extensions-emission_7.4+gitr7711+82efbcb0+82efbcb864-r8_dm920.ipk
+Size: 24764
+MD5Sum: 2e8dc9c942ca69d080b0f0f76d81f35e
 
 Package: enigma2-plugin-extensions-enhancedmoviecenter
-Version: 4.0
+Version: 4.0.+git1761-r0
 Description: Filemanager MoviePlayer Extentions
+ Filemanager MoviePlayer Extentions.
 Section: extra
 Priority: optional
 Maintainer: Coolman, Betonme & Swiss-MAD
-License: GPL-2.0-only
+License: GPL-2.0-or-later
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-extensions-enhancedmoviecenter
 Homepage: https:\\www.opena.tv
 Depends: gstreamer1.0-plugins-bad-rtmp, gstreamer1.0-plugins-good-flv, python3-chardet, python3-html, python3-json, python3-mutagen, python3-requests, python3-tmdbsimple, rtmpdump
 Source: enigma2-plugin-extensions-enhancedmoviecenter.bb
-Filename: enigma2-plugin-extensions-enhancedmoviecenter_4.0.+git1757+57520eb0+57520ebe76-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 679258
-MD5Sum: 66d84cf899793881f0678689dd9b1ca9
+Filename: enigma2-plugin-extensions-enhancedmoviecenter_4.0.+git1761+934f2d90+934f2d9b65-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 692200
+MD5Sum: effffd847abdfe1a5be6d011d30c796e
 
 Package: enigma2-plugin-extensions-enigmalight
 Version: 1.42+git139-r12
-Depends: libc6 (>= 2.39), libgcc1 (>= 14.1.0), libstdc++6 (>= 14.1.0), libusb-1.0-0 (>= 1.0.27)
-Recommends: kernel-module-cdc-acm, kernel-module-ch341, kernel-module-ftdi-sio, kernel-module-usbserial, libusb1, python3-cheetah
+Description: An Ambilight clone for broadcom based linux receivers.
 Section: base
-Architecture: cortexa15hf-neon-vfpv4
-Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dafcc0fd2a7ef450381a0f0fbb3e4aa5
-SHA256sum: c550b5dc17a74737a56081606988ebb463e8c549ed35cce159ff269583f15e27
-Size: 1998686
-Filename: enigma2-plugin-extensions-enigmalight_1.42+git139+72f786e0+72f786ea18-r12_cortexa15hf-neon-vfpv4.ipk
-Source: enigma2-plugin-extensions-enigmalight.bb
-Description: enigma2-plugin-extensions-enigmalight version 1.42+git-r12
-OE: enigma2-plugin-extensions-enigmalight
-HomePage: https://github.com/oe-mirrors/enigmalight
-License: GPL-3.0-only
 Priority: optional
+Maintainer: open
+License: GPL-3.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-enigmalight
+Homepage: https://github.com/oe-mirrors/enigmalight
+Depends: libc6 (>= 2.39), libgcc1 (>= 13.2.0), libstdc++6 (>= 13.2.0), libusb-1.0-0 (>= 1.0.27)
+Recommends: kernel-module-cdc-acm, kernel-module-ch341, kernel-module-ftdi-sio, kernel-module-usbserial, libusb1, python3-cheetah
+Source: enigma2-plugin-extensions-enigmalight.bb
+Filename: enigma2-plugin-extensions-enigmalight_1.42+git139+72f786e0+72f786ea18-r12_cortexa15hf-neon-vfpv4.ipk
+Size: 2004400
+MD5Sum: 6f1139205d1dac059558db2b8fe746eb
 
 Package: enigma2-plugin-extensions-eparted
-Version: 7.5
+Version: 7.8
 Description: eParted manipulates partition tables
 Section: base
 Priority: optional
@@ -250,12 +249,12 @@ Depends: parted
 Replaces: eparted
 Conflicts: eparted
 Source: enigma2-plugins.bb
-Filename: enigma2-plugin-extensions-eparted_7.4+gitr7704+2442ff60+2442ff6805-r8_dm920.ipk
-Size: 26298
-MD5Sum: 9582cef6e8d6fce2d99b13e5fcb991e5
+Filename: enigma2-plugin-extensions-eparted_7.4+gitr7711+82efbcb0+82efbcb864-r8_dm920.ipk
+Size: 26544
+MD5Sum: 51649734f925509869d9761ddea7e388
 
 Package: enigma2-plugin-extensions-epgtranslator
-Version: 7.5
+Version: 7.8
 Description: EPG Translator
 Section: base
 Priority: optional
@@ -270,7 +269,7 @@ Size: 1618294
 MD5Sum: c7f5cd7ce315bdbd45a9ceea6a061f2e
 
 Package: enigma2-plugin-extensions-esame
-Version: 7.5
+Version: 7.8
 Description: eSame game for enigma2
 Section: base
 Priority: optional
@@ -279,11 +278,10 @@ License: Proprietary
 Architecture: dm920
 OE: enigma2-plugins
 Homepage: https:\\www.opena.tv
-Depends: enigma2-plugins
 Source: enigma2-plugins.bb
-Filename: enigma2-plugin-extensions-esame_7.4+gitr7704+2442ff60+2442ff6805-r8_dm920.ipk
+Filename: enigma2-plugin-extensions-esame_7.4+gitr7711+82efbcb0+82efbcb864-r8_dm920.ipk
 Size: 20476
-MD5Sum: 15d58208cd79c4b06d749b5b37bd45d2
+MD5Sum: d9453d6c9a16b8e52491d164af131e4e
 
 Package: enigma2-plugin-extensions-filmon
 Version: 1.9
@@ -387,8 +385,9 @@ Size: 716752
 MD5Sum: c3069be14b82b6c97e91b45a1c7f96ed
 
 Package: enigma2-plugin-extensions-ipaudiopro
-Version: 1.1+git112
-Description: IPAudioPro is a Plugin that allows you to listen to radio streams in the background while watching something else
+Version: 1.3+git124-r0
+Description: IPAudioPro is a Plugin that allows you to listen to radio streams in the
+ background while watching something else
 Section: base
 Priority: optional
 Maintainer: zKhadiri
@@ -396,11 +395,11 @@ License: Proprietary
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-extensions-ipaudiopro
 Homepage: https:\\www.opena.tv
-Depends: alsa-plugins, enigma2, libasound2 (>= 1.2.11), libavcodec61 (>= 7.0.1), libavformat61 (>= 7.0.1), libc6 (>= 2.39), libgcc1 (>= 14.1.0), libpython3.12-1.0 (>= 3.12.2), libstdc++6 (>= 14.1.0), python3-core, python3-cryptography
+Depends: alsa-conf, alsa-plugins, alsa-state, enigma2, libasound2 (>= 1.2.11), libavcodec61 (>= 7.0.1), libavformat61 (>= 7.0.1), libc6 (>= 2.39), libgcc1 (>= 13.2.0), libpython3.12-1.0 (>= 3.12.3), libstdc++6 (>= 13.2.0), python3-cryptography
 Source: enigma2-plugin-extensions-ipaudiopro.bb
-Filename: enigma2-plugin-extensions-ipaudiopro_1.1+git112+3933b300+3933b30b56-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 1030420
-MD5Sum: d7c866617153e497ed8702d8f38a2606
+Filename: enigma2-plugin-extensions-ipaudiopro_1.3+git124+cd654700+cd6547059e-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 1071562
+MD5Sum: 816c93df3034bf37d14afe08f42e89f3
 
 Package: enigma2-plugin-extensions-ipchecker
 Version: 004
@@ -532,7 +531,6 @@ Priority: optional
 Architecture: all
 Maintainer: Billy2011
 Description: Samsung TV Plus Live TV Channels
-Depends: enigma2-plugin-extensions-epgimport
 Recommends: enigma2-plugin-systemplugins-serviceapp
 Source: 
 Homepage: 
@@ -541,20 +539,19 @@ Size: 174140
 MD5Sum: 425fa34b6f740610b6d3afe59ec73363
 
 Package: enigma2-plugin-extensions-schiffe
-Version: 7.5
+Version: 7.8
 Description: Schiffe Battleship Game
 Section: base
 Priority: optional
 Maintainer: OE-Alliance team
 License: Proprietary
-Architecture: all
+Architecture: dm920
 OE: enigma2-plugins
 Homepage: https:\\www.opena.tv
-Depends:
 Source: enigma2-plugins.bb
-Filename: enigma2-plugin-extensions-schiffe_7.4+gitr7669+b4f455e0+b4f455e53e-r8_dm920.ipk
+Filename: enigma2-plugin-extensions-schiffe_7.4+gitr7711+82efbcb0+82efbcb864-r8_dm920.ipk
 Size: 170076
-MD5Sum: 1f429ad0f8360218c464b55ae9264a4b
+MD5Sum: 7d6f4748bbec5a23acd242d41095a7cf
 
 Package: enigma2-plugin-extensions-skyrecorder
 Version: 2.1.3-py3
@@ -590,19 +587,19 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: enigma2-plugin-extensions-sudoku
-Version: 7.5
+Version: 7.8
 Description: Sudoku Game
 Section: base
 Priority: optional
 Maintainer: OE-Alliance team
 License: Proprietary
-Architecture: all
+Architecture: dm920
 OE: enigma2-plugins
 Homepage: https:\\www.opena.tv
 Source: enigma2-plugins.bb
-Filename: enigma2-plugin-extensions-sudoku_7.4+gitr7669+b4f455e0+b4f455e53e-r8_dm920.ipk
+Filename: enigma2-plugin-extensions-sudoku_7.4+gitr7711+82efbcb0+82efbcb864-r8_dm920.ipk
 Size: 315914
-MD5Sum: 60a9934f2bf60144502964947001f494
+MD5Sum: c2c19f64ced4d38b3118a3d3e97bb6b3
 
 Package: enigma2-plugin-extensions-surfsharkvpn
 Version: 1.0.9-py3
@@ -620,20 +617,19 @@ Size: 927526
 MD5Sum: fda0075fe5f6ada0bc7c2fc43df1b725
 
 Package: enigma2-plugin-extensions-tetris
-Version: 7.5
-Description: Tetris-Clone Game
+Version: 7.8
+Description: Game Tetris-Clone
 Section: base
 Priority: optional
 Maintainer: OE-Alliance team
 License: Proprietary
-Architecture: all
+Architecture: dm920
 OE: enigma2-plugins
 Homepage: https:\\www.opena.tv
 Source: enigma2-plugins.bb
-Filename: enigma2-plugin-extensions-tetris_7.4+gitr7669+b4f455e0+b4f455e53e-r8_dm920.ipk
-Size: 136594
-MD5Sum: 943516b46a44690e96fc9759cd3645cb
-https://streamlink.github.io/#
+Filename: enigma2-plugin-extensions-tetris_7.4+gitr7711+82efbcb0+82efbcb864-r8_dm920.ipk
+Size: 136598
+MD5Sum: 9c0b60ed1ee04813333ad3a832892fd1
 
 Package: enigma2-plugin-extensions-theweather-py2-py3
 Version: 2.4_r3
@@ -680,19 +676,19 @@ Size: 1363294
 MD5Sum: 3ffbe5a7e15fac8d7577d6759a2a3388
 
 Package: enigma2-plugin-extensions-vierg
-Version: 7.5
-Description: Four Wins Game
+Version: 7.8
+Description: Four wins game
 Section: base
 Priority: optional
 Maintainer: OE-Alliance team
 License: Proprietary
-Architecture: all
+Architecture: dm920
 OE: enigma2-plugins
 Homepage: https:\\www.opena.tv
 Source: enigma2-plugins.bb
-Filename: enigma2-plugin-extensions-vierg_7.4+gitr7669+b4f455e0+b4f455e53e-r8_dm920.ipk
+Filename: enigma2-plugin-extensions-vierg_7.4+gitr7711+82efbcb0+82efbcb864-r8_dm920.ipk
 Size: 38638
-MD5Sum: c4172444847cd948211c2ad39850e2ac
+MD5Sum: eff20e84a84bff7df4a83814e0c3a956
 
 Package: enigma2-plugin-extensions-vpnmanager
 Version: 1.1.7-py3
@@ -893,7 +889,6 @@ Priority: optional
 Package: gnome-theme-adwaita
 Version: 3.28-r0
 Description: GTK+2 standard themes
- GTK+2 standard themes.
 Section: x11/gnome
 Priority: optional
 Maintainer: open
@@ -952,7 +947,7 @@ Description: An HTTP library implementation in C
  the glib main loop, to integrate well with GNOME applications.
 Section: x11/gnome/libs
 Priority: optional
-Maintainer: open
+Maintainer: openATV
 License: LGPL-2.0-only
 Architecture: cortexa15hf-neon-vfpv4
 OE: libsoup-2.4
