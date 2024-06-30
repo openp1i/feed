@@ -429,6 +429,22 @@ Filename: enigma2-plugin-extensions-iptvarchive_2.0.82_all.ipk
 Size: 1082542
 MD5Sum: 8d42c661ad062f0b30bfbd3d37246be6
 
+Package: enigma2-plugin-extensions-lottoextended
+Version: 7.8
+Section: base
+Architecture: dm920
+Maintainer: oe-alliance team
+MD5Sum: 1379523a5aefa21af31bb0290a931402
+SHA256sum: 35a968b7efb954339dc17d31ae42ce7a75a1ae6ed2c0790ffcd32af099ed3ee8
+Size: 48130
+Filename: enigma2-plugin-extensions-lottoextended_6.6+gitr3604+28089560+28089564fa-r2_dm920.ipk
+Source: enigma2-oe-alliance-plugins.bb
+Description: lottoextended
+OE: enigma2-plugins
+HomePage: https://www.world-of-satellite.com
+License: Proprietary
+Priority: optional
+
 Package: enigma2-plugin-extensions-mediastream
 Version: 20231130
 Description: MediaPortal - MediaStream - MediaCenter
