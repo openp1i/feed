@@ -384,23 +384,6 @@ Filename: enigma2-plugin-extensions-internet-speedtest_1.7_all.ipk
 Size: 716752
 MD5Sum: c3069be14b82b6c97e91b45a1c7f96ed
 
-Package: enigma2-plugin-extensions-ipaudiopro
-Version: 1.3+git124-r0
-Description: IPAudioPro is a Plugin that allows you to listen to radio streams in the
- background while watching something else
-Section: base
-Priority: optional
-Maintainer: zKhadiri
-License: Proprietary
-Architecture: cortexa15hf-neon-vfpv4
-OE: enigma2-plugin-extensions-ipaudiopro
-Homepage: https:\\www.opena.tv
-Depends: alsa-conf, alsa-plugins, alsa-state, enigma2, libasound2 (>= 1.2.11), libavcodec61 (>= 7.0.1), libavformat61 (>= 7.0.1), libc6 (>= 2.39), libgcc1 (>= 13.2.0), libpython3.12-1.0 (>= 3.12.3), libstdc++6 (>= 13.2.0), python3-cryptography
-Source: enigma2-plugin-extensions-ipaudiopro.bb
-Filename: enigma2-plugin-extensions-ipaudiopro_1.3+git124+cd654700+cd6547059e-r0_cortexa15hf-neon-vfpv4.ipk
-Size: 1071562
-MD5Sum: 816c93df3034bf37d14afe08f42e89f3
-
 Package: enigma2-plugin-extensions-ipchecker
 Version: 004
 Priority: optional

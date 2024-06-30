@@ -900,14 +900,14 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-tvaddon-dbg
-Version: 2.1.4+git269+252eb010+252eb01275-r0
+Version: 2.1.4+git270+4ae1fc60+4ae1fc6fd6-r0
 Section: devel
 Architecture: all
 Maintainer: @Lululla
-MD5Sum: d74aab8ec8b5a667bfc7efb4824ae5d0
-SHA256sum: fe3ee1b387990af133015ca9ec92781fc68208a2301969c6f2b5b21ca001d966
-Size: 624
-Filename: enigma2-plugin-extensions-tvaddon-dbg_2.1.4+git269+252eb010+252eb01275-r0_all.ipk
+MD5Sum: ee35d115a53c81174af4a4a67d2c82cf
+SHA256sum: 2613b8e3f26ff3ddef424c70d175982155068b1d7168dafc2613271f30582d7b
+Size: 622
+Filename: enigma2-plugin-extensions-tvaddon-dbg_2.1.4+git270+4ae1fc60+4ae1fc6fd6-r0_all.ipk
 Source: enigma2-plugin-extensions-tvaddon.bb
 Description: TiVuPanel Addon - Debugging files
 OE: enigma2-plugin-extensions-tvaddon
@@ -916,15 +916,15 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-tvaddon-dev
-Version: 2.1.4+git269+252eb010+252eb01275-r0
-Recommends: enigma2-plugin-extensions-tvaddon (= 2.1.4+git269+252eb010+252eb01275-r0)
+Version: 2.1.4+git270+4ae1fc60+4ae1fc6fd6-r0
+Recommends: enigma2-plugin-extensions-tvaddon (= 2.1.4+git270+4ae1fc60+4ae1fc6fd6-r0)
 Section: devel
 Architecture: all
 Maintainer: @Lululla
-MD5Sum: f9a65b45fdd397c12827dd4e865795b3
-SHA256sum: 4e677b89a719baad872d52fd65b16d66ad8952a16577aab8f40fabecca92a662
-Size: 658
-Filename: enigma2-plugin-extensions-tvaddon-dev_2.1.4+git269+252eb010+252eb01275-r0_all.ipk
+MD5Sum: 7f9b02eef6f80a5a2b169f60714cad30
+SHA256sum: 3ce2fbee51a8fe0e1bcb14c620c2401110cc1694b04041628740e912b88ce6b1
+Size: 656
+Filename: enigma2-plugin-extensions-tvaddon-dev_2.1.4+git270+4ae1fc60+4ae1fc6fd6-r0_all.ipk
 Source: enigma2-plugin-extensions-tvaddon.bb
 Description: TiVuPanel Addon - Development files
 OE: enigma2-plugin-extensions-tvaddon
@@ -933,14 +933,14 @@ License: GPL-3.0-only
 Priority: optional
 
 Package: enigma2-plugin-extensions-tvaddon
-Version: 2.1.4+git269+252eb010+252eb01275-r0
+Version: 2.1.4+git270+4ae1fc60+4ae1fc6fd6-r0
 Section: base
 Architecture: all
 Maintainer: @Lululla
-MD5Sum: 247faaeaa8738b05e5cbecaea3142197
-SHA256sum: 92881a9df46bfe161dcc00083d40ef807c14eabe8299261beae10b3ba7d29b10
-Size: 1554826
-Filename: enigma2-plugin-extensions-tvaddon_2.1.4+git269+252eb010+252eb01275-r0_all.ipk
+MD5Sum: b40c9cd7f3c7c8be22167b2f6f1c766e
+SHA256sum: 154c22fbb727f8268d7310cd18a8038277848faecb08b7fa02157718d80cd002
+Size: 1554246
+Filename: enigma2-plugin-extensions-tvaddon_2.1.4+git270+4ae1fc60+4ae1fc6fd6-r0_all.ipk
 Source: enigma2-plugin-extensions-tvaddon.bb
 Description: TiVuPanel Addon
 OE: enigma2-plugin-extensions-tvaddon
