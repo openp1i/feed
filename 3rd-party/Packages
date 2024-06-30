@@ -260,13 +260,13 @@ Section: base
 Priority: optional
 Maintainer: oe-alliance team
 License: Proprietary
-Architecture: all
-OE: enigma2-oe-alliance-plugins
+Architecture: dm920
+OE: enigma2-plugins
 Homepage: https:\\www.opena.tv
-Source: enigma2-oe-alliance-plugins.bb
-Filename: enigma2-plugin-extensions-epgtranslator_7.4+gitr3594+910f8c40+910f8c4eba-r2_dm920.ipk
-Size: 1618294
-MD5Sum: c7f5cd7ce315bdbd45a9ceea6a061f2e
+Source: enigma2-plugin-extensions-epgtranslator.bb
+Filename: enigma2-plugin-extensions-epgtranslator_7.4.1-devel+gitr3604+28089560+28089564fa-r2_dm920.ipk
+Size: 1618278
+MD5Sum: 1a9a456aacbe5ccdad237741e68a69bb
 
 Package: enigma2-plugin-extensions-esame
 Version: 7.8
