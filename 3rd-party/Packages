@@ -356,7 +356,7 @@ Size: 2532118
 MD5Sum: 7abc72db0e5cd5962819e29497904ec4
 
 Package: enigma2-plugin-extensions-hdfradio
-Version: 2.9.4
+Version: 2.11.0
 Description: Webradio Plugin
 Section: base
 Priority: required
@@ -366,9 +366,9 @@ Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-extensions-hdfradio
 Depends: gstplayer, libc6 (>= 2.39), python3-core, python3-mutagen, python3-pillow, python3-requests, streamripper
 Source: enigma2-plugin-extensions-hdfradio.bb
-Filename: enigma2-plugin-extensions-hdfradio_2.9.4_py3_3.12_cortexa15hf-neon-vfpv4.ipk
-Size: 3671082
-MD5Sum: ac1e9d40e30a12757f43e2502ff7d871
+Filename: enigma2-plugin-extensions-hdfradio_2.11.0_py3_3.12_cortexa15hf-neon-vfpv4.ipk
+Size: 3712164
+MD5Sum: b409cdcd0b09da03b2a091aa75cb866d
 
 Package: enigma2-plugin-extensions-internet-speedtest
 Version: 1.7
