@@ -303,8 +303,8 @@ Version: develop-r0
 Section: base
 Architecture: dm920
 Maintainer: OpenPLi team
-MD5Sum: e7079f1a78f18927dfd5dfe793ef6bb0
-SHA256sum: 3d04ad1c7252979cfe5d67fef08ff83e33f1218976304a44a26e7765478bda67
+MD5Sum: 614b5fc35474af55e8fbd894d52b5e79
+SHA256sum: ae51c2df6a15a61eed3f81717ae428edd38ec437b1696d98e9a1b08e80d03a4d
 Size: 1276
 Filename: enigma-info_develop-r0_dm920.ipk
 Source: enigma-info.bb
