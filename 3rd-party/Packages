@@ -659,7 +659,7 @@ Size: 456938
 MD5Sum: b135b7496370c5486b21e02d8d5963d0
 
 Package: enigma2-plugin-extensions-vavoo
-Version: 1.19
+Version: 1.20
 Section: base
 Priority: optional
 Architecture: all
@@ -671,9 +671,9 @@ Homepage: corvoboys.org
 Depends: python3-requests
 Recommends: ffmpeg, gstplayer, exteplayer3, enigma2-plugin-systemplugins-serviceapp
 OE: enigma2-plugin-extensions-vavoo
-Filename: enigma2-plugin-extensions-vavoo_1.19_all.ipk
-Size: 1590132
-MD5Sum: 532ae2309eadb4bbd1f534e628f8dff3
+Filename: enigma2-plugin-extensions-vavoo_1.20_all.ipk
+Size: 1368712
+MD5Sum: ed88a4842d2cd30abc04514469e7eda5
 
 Package: enigma2-plugin-extensions-vierg
 Version: 7.8
