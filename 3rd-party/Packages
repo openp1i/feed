@@ -672,8 +672,8 @@ Depends: python3-requests
 Recommends: ffmpeg, gstplayer, exteplayer3, enigma2-plugin-systemplugins-serviceapp
 OE: enigma2-plugin-extensions-vavoo
 Filename: enigma2-plugin-extensions-vavoo_1.20_all.ipk
-Size: 1368712
-MD5Sum: ed88a4842d2cd30abc04514469e7eda5
+Size: 1370040
+MD5Sum: 71205fcc2a0c86fb7b754a6795914039
 
 Package: enigma2-plugin-extensions-vierg
 Version: 7.8
