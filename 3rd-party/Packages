@@ -1143,6 +1143,21 @@ OE: enigma2-plugin-skins-madmax-impossible-pli
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-skins-metrixfhd-neo
+Version: 1.0
+Section: base
+Architecture: all
+Maintainer: neo
+MD5Sum: 68a7adcb37a3fecda686182b6744663c
+Size: 733012
+Filename: enigma2-plugin-skins-metrixfhd-neo_1.0_all.ipk
+Recommends: enigma2-plugin-extensions-oaweather
+Source: enigma2-plugin-skins-metrixfhd-neo.bb
+Description: skin-Metrix FHD
+OE: enigma2-plugin-skins-metrixfhd-neo
+License: GPL-2.0-or-later
+Priority: optional
+
 Package: enigma2-plugin-skins-nuitneonfhd
 Version: 1.3
 Description: Skin-NuitneonFHD
