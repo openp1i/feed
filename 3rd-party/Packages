@@ -1066,8 +1066,8 @@ License: GPL-2.0-only
 Depends: enigma2-plugin-extensions-bitrate
 Recommends: enigma2-plugin-extensions-oaweather
 Filename: enigma2-plugin-skins-aglare-fhd-pli_3.7.2_all.ipk
-Size: 7792296
-MD5Sum: 6e5a523d7126502a489638a9d407b5fd
+Size: 7792678
+MD5Sum: da434193af5db2e15557078a85fc62e7
 
 Package: enigma2-plugin-skins-ax-blue-fhd
 Version: 3.4
