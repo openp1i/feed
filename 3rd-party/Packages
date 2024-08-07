@@ -550,6 +550,21 @@ Filename: enigma2-plugin-extensions-levi45-addon-manager_10.1-r19_all.ipk
 Size: 118464
 MD5Sum: 9e8161166444babd05956c38760a00e4
 
+Package: enigma2-plugin-extensions-linuxsat-panel
+Version: 2.0
+Section: extra
+Priority: optional
+Architecture: all
+Maintainer: master G - Lululla - oktus
+Description: Addons Panel
+Depends: wget, python3-requests
+Source: https://www.linuxsat-support.com
+Homepage: https://www.linuxsat-support.com
+OE: 2.0/2.5-2.6
+Filename: enigma2-plugin-extensions-linuxsat-panel_2.0_all.ipk
+Size: 1700256
+MD5Sum: 23592dd0a1327732bba02658b5916aeb
+
 Package: enigma2-plugin-extensions-lottoextended
 Version: 7.8
 Section: base
@@ -571,7 +586,7 @@ Version: 20231130
 Description: MediaPortal - MediaStream - MediaCenter
 Section: base
 Priority: optional
-Maintainer: MS
+Maintainer: MP4ALL
 License: GPL-2.0-only
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-extensions-mediastream
