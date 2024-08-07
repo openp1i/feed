@@ -1423,6 +1423,40 @@ Filename: nss_3.101-r0_cortexa15hf-neon-vfpv4.ipk
 Size: 3412396
 MD5Sum: f9ac7d56703a325c73f0bd7ec30f2460
 
+Package: python3-guessit
+Version: 3.8.0-r0
+Depends: python3-core
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 5cce15779e9450fac4bc20fa4bdcef94
+SHA256sum: ac57ef45f1e4ab2a116a4fbd56a84a04b09ed5f73f6b551a9b67cb34c168d31f
+Size: 213102
+Filename: python3-guessit_3.8.0-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-guessit_3.8.0.bb
+Description: GuessIt - a library for guessing information from video filenames.
+OE: python3-guessit
+HomePage: https://doc.guessit.io/
+License: LGPL-3.0-only
+Priority: optional
+
+Package: python3-pytest-runner
+Version: 6.0.1-r0
+Depends: python3-core, python3-debugger, python3-io, python3-json, python3-setuptools
+Section: devel/python
+Architecture: cortexa15hf-neon-vfpv4
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 74415069d0b8164b5a9a855404151fbc
+SHA256sum: 7171c2e7e7c5594afbeafbcec1229c3c1f331b0cfd06c1bfa609045a8f2a59b5
+Size: 12050
+Filename: python3-pytest-runner_6.0.1-r0_cortexa15hf-neon-vfpv4.ipk
+Source: python3-pytest-runner_6.0.1.bb
+Description: Invoke py.test as distutils command with dependency resolution
+OE: python3-pytest-runner
+HomePage: https://pypi.org/project/pytest-runner/
+License: MIT
+Priority: optional
+
 Package: tsniv2ni
 Version: 1.0+git9+00c0894-r0
 Depends: libc6 (>= 2.40), libgcc1 (>= 14.1.0), libstdc++6 (>= 14.1.0)
