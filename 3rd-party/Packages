@@ -1158,6 +1158,23 @@ OE: enigma2-plugin-skins-madmax-impossible-pli
 License: GPL-2.0-or-later
 Priority: optional
 
+Package: enigma2-plugin-skins-maxy-fhd-pli
+Version: 1.0
+Description: Skin Maxy FHD
+Section: base
+Priority: required
+Architecture: all
+Maintainer: mnasr
+Source: enigma2-plugin-skins-maxy-fhd-pli.bb
+Homepage: 
+OE: enigma2-plugin-skins-maxy-fhd-pli
+License: GPL-2.0-only
+Depends: enigma2-plugin-extensions-bitrate
+Recommends: enigma2-plugin-extensions-oaweather
+Filename: enigma2-plugin-skins-maxy-fhd-pli_1.0_all.ipk
+Size: 5625892
+MD5Sum: 59af4f24a428216459204144ac77f40c
+
 Package: enigma2-plugin-skins-metrixfhd-neo
 Version: 1.0
 Section: base
