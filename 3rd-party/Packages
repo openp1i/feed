@@ -1159,7 +1159,7 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-skins-maxy-fhd-pli
-Version: 1.0
+Version: 1.1
 Description: Skin Maxy FHD
 Section: base
 Priority: required
@@ -1171,9 +1171,9 @@ OE: enigma2-plugin-skins-maxy-fhd-pli
 License: GPL-2.0-only
 Depends: enigma2-plugin-extensions-bitrate
 Recommends: enigma2-plugin-extensions-oaweather
-Filename: enigma2-plugin-skins-maxy-fhd-pli_1.0_all.ipk
-Size: 5625892
-MD5Sum: 59af4f24a428216459204144ac77f40c
+Filename: enigma2-plugin-skins-maxy-fhd-pli_1.1_all.ipk
+Size: 5993642
+MD5Sum: e4bd84acebf58f37dff763b443648749
 
 Package: enigma2-plugin-skins-metrixfhd-neo
 Version: 1.0
