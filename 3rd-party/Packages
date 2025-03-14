@@ -306,7 +306,7 @@ MD5Sum: b5543a99167b39f78084611a075c0749
 SHA256sum: d729875d970ca8b4e12950f31881d2acbc75afc38001bab4086de33f612413c0
 
 Package: enigma2-plugin-extensions-hdfradio
-Version: 2.20.3+git464+c2665d70+c2665d7513-r2
+Version: 2.20.6
 Description: Webradio Plugin
 Section: base
 Priority: required
@@ -314,12 +314,12 @@ Maintainer: koivo & oerlgrey
 License: GPL-2.0-or-later
 Architecture: cortexa15hf-neon-vfpv4
 OE: enigma2-plugin-extensions-hdfradio
-Depends: gstplayer, libc6 (>= 2.40), python3-beautifulsoup4, python3-core, python3-json, python3-mutagen, python3-pillow, python3-requests, streamripper
+Depends: gstplayer, libc6 (>= 2.41), python3-beautifulsoup4, python3-core, python3-json, python3-mutagen, python3-pillow, python3-requests, streamripper
 Source: enigma2-plugin-extensions-hdfradio.bb
-Filename: enigma2-plugin-extensions-hdfradio_2.20.5_py3_3.13_cortexa15hf-neon-vfpv4.ipk
-Size: 4477078
-MD5Sum: 44abfc4811eddb2318795d05a97a4ea1
-SHA256sum: d9d3b91f9b793fcf62be63ecdfcb7812541005baf94120a89603dfe9680d147f
+Filename: enigma2-plugin-extensions-hdfradio_2.20.6_py3_3.13_cortexa15hf-neon-vfpv4.ipk
+Size: 4490696
+MD5Sum: 5ae008563a375987e99ec9bb33d5e6fe
+SHA256sum: 6801043b8fb04f14da94749cad829f5c0658ca440ed01dbb2a63fc527b32f59f
 
 Package: enigma2-plugin-extensions-internet-speedtest
 Version: 1.8
