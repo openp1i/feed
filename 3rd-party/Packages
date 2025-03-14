@@ -793,9 +793,9 @@ Version: 5.2.2
 Section: base
 Architecture: all
 Maintainer: mnasr
-MD5Sum: ade13006697b02fb0ea064a6fb56ab3b
-SHA256sum: da1e24aa7c630df7c7b96d60603912f6ca30a6e1404b2bb000fc0b6abc020e3d
-Size: 9174898
+MD5Sum: 171610a309f09921d4378e9eb951feb5
+SHA256sum: 2666234f2ab5e071293d283355b5144aa982b9d410a80a2d35060faba44879c9
+Size: 9174900
 Filename: enigma2-plugin-skins-aglare-fhd-pli_5.2.2_all.ipk
 Source: enigma2-plugin-skins-aglare-fhd-pli.bb
 Depends: enigma2-plugin-extensions-bitrate
