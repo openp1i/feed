@@ -855,8 +855,7 @@ Version: 3.4
 Section: base
 Architecture: all
 Maintainer: madhouse
-Description: Skin MadMax Impossible
-Recommends: enigma2-plugin-extensions-oaweather
+Description: Skin MadMax Impossible FHD
 Source: enigma2-plugin-skins-madmax-impossible.bb
 Homepage: https://github.com/m4dhouse
 OE: enigma2-plugin-skins
