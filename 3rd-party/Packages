@@ -600,7 +600,7 @@ License: Proprietary
 Priority: optional
 
 Package: enigma2-plugin-extensions-streamlink-bouquets
-Version: 7.1.r4
+Version: 7.1.3
 Description: Streamlink + Bouquets (Streams from various websites)
 Section: devel/python
 Priority: optional
@@ -611,10 +611,10 @@ OE: enigma2-plugin-extensions
 Homepage: https://github.com/streamlink/streamlink
 Depends: enigma2-plugin-systemplugins-serviceapp, exteplayer3, gstplayer, streamlink, streamlinksrv
 Source: enigma2-plugin-extensions-streamlink.bb
-Filename: enigma2-plugin-extensions-streamlink-bouquets_7.1.r4_cortexa15hf-neon-vfpv4.ipk
-Size: 28708
-MD5Sum: 5ad0015a118a9f50797d6a79e056d09d
-SHA256sum: ae6f46ce89ec1234c8447993860866e681ae9f09e1cc05ddf621fd5db7af5162
+Filename: enigma2-plugin-extensions-streamlink-bouquets_7.1.3_cortexa15hf-neon-vfpv4.ipk
+Size: 28190
+MD5Sum: 712046eae280d9ef90fdd54299e7dd4c
+SHA256sum: 4d6049b399aaee6806ffa6600a1d6bc2c5c5a8fe547f55e372cbd61a75c0abe7
 
 Package: enigma2-plugin-extensions-subssupport
 Version: 1.7.0-r15
